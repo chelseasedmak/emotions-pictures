@@ -1,0 +1,43 @@
+.site-footer {
+  position: relative;
+  z-index: 2;
+  padding-block: 3.5rem 2.5rem;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.75rem;
+  text-align: center;
+}
+
+.site-footer__logo {
+  height: 80px;
+  width: auto;
+}
+
+.site-footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.site-footer__link {
+  font-size: var(--fs-nav);
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.site-footer__link:hover {
+  opacity: 1;
+}
+
+.site-footer__mark {
+  width: 42px;
+  height: auto;
+  opacity: 0.8;
+}

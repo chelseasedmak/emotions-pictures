@@ -1,0 +1,35 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--font-serif);
+  font-size: var(--fs-body);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  border: none;
+  background: none;
+  padding: 0;
+  transition: opacity 0.2s ease, gap 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  gap: 1rem;
+}
+
+.btn--solid {
+  background: #000;
+  border: 1px solid var(--color-border);
+  padding: 0.85rem 1.6rem;
+  border-radius: 2px;
+}
+
+.btn--link {
+  padding: 0.25rem 0;
+}
+
+.btn-arrow {
+  width: 13px;
+  height: auto;
+  flex-shrink: 0;
+}

@@ -1,0 +1,7 @@
+.about-hero .page-hero {
+  min-height: 80vh;
+}
+
+.about-hero .page-hero__description {
+  max-width: 60ch;
+}
